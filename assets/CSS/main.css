@@ -1,0 +1,409 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 243);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: Papyrus;
+    font-weight: bold;
+}
+
+#jenifer,
+#jeffrey {
+    float: left;
+    padding: 15px;
+}
+
+.content {
+    width: 590px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#jenifer img,
+#jeffrey img {
+    width: 100%;
+}
+
+.opacity {
+    padding: 20px 40px;
+    width: 100%;
+    height: 99.4%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    background: rgba(204, 204, 204, 0.4);
+    opacity: 0;
+}
+
+.opacity h2 {
+    border: solid 1px white;
+    color: #ffffff;
+    box-shadow: 0 0 30px 15px #fff;
+    width: 250px;
+    margin: 60% auto 40px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.opacity p {
+    font-weight: 600;
+    font-size: 35px;
+    color: #1e1e6d;
+    font-family: Brush Script MT;
+}
+
+.opacity:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    opacity: 1;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(193, 184, 175);
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 0px;
+}
+
+ul {
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+}
+
+ul a {
+    color: rgb(255, 254, 243);
+    text-decoration: none;
+}
+
+#AboutUs,
+#Photos,
+#Goals {
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: rgb(52, 73, 94);
+}
+
+#Photos {
+    background-color: rgb(248, 248, 248);
+}
+
+h3 {
+    font-size: 43px;
+    padding: 10px;
+}
+
+.content-section {
+    padding: 30px 150px;
+}
+
+#slideshow {
+    margin: 0px 150px 30px;
+}
+
+.img-location {
+    font-size: 20px;
+}
+
+[class^="img-location Taiwan"] {
+    color: #7e5b07;
+}
+
+[class^="img-location Japan"] {
+    color: #073e7e;
+}
+
+[class^="img-location Australia"] {
+    color: #7e075e;
+}
+
+.img-location+a {
+    display: inline-block;
+    margin: 8px;
+}
+
+#slideshow .Australia3~div {
+    border: dashed 5px black;
+    height: 310px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#slideshow .Australia3~div div {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.carousel-indicators li {
+    border-width: 2px;
+    background-color: #fff;
+    width: 13px;
+    height: 13px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    float: left;
+    background-color: rgb(139, 139, 139);
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    position: relative;
+    bottom: 0px;
+}
+
+h4 {
+    color: #ffcc79;
+}
+
+.icon {
+    display: inline;
+}
+
+.icon i {
+    position: relative;
+    right: 8px;
+    bottom: -7px;
+}
+
+footer a {
+    color: #671e1e;
+}
+
+@media screen and (max-width: 767px)
+/*Grid System*/
+
+
+/*Type*/
+
+{
+    [class*="col-"] {
+        width: 100%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .content {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    .opacity {
+        padding: 20px 10px;
+    }
+    .opacity h2 {
+        width: 190px;
+        margin: 50% auto 20px;
+    }
+    .opacity p {
+        font-size: 30px;
+    }
+    .content-section {
+        padding: 30px 40px;
+    }
+    #slideshow {
+        margin: 0px 5px 30px;
+    }
+    #slideshow .Australia3~div {
+        height: 200px;
+    }
+    #slideshow .Australia3~div div {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+}
+
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)
+/*Grid System*/
+{
+    .col-md-1 {
+        width: calc(100% * 1/12);
+    }
+    
+    .col-md-2 {
+        width: calc(100% * 2/12);
+    }
+    
+    .col-md-3 {
+        width: calc(100% * 3/12);
+    }
+    
+    .col-md-4 {
+        width: calc(100% * 4/12);
+    }
+    
+    .col-md-5 {
+        width: calc(100% * 5/12);
+    }
+    
+    .col-md-6 {
+        width: calc(100% * 6/12);
+    }
+    
+    .col-md-7 {
+        width: calc(100% * 7/12);
+    }
+    
+    .col-md-8 {
+        width: calc(100% * 8/12);
+    }
+    
+    .col-md-9 {
+        width: calc(100% * 9/12);
+    }
+    
+    .col-md-10 {
+        width: calc(100% * 10/12);
+    }
+    
+    .col-md-11 {
+        width: calc(100% * 11/12);
+    }
+    
+    .col-md-12 {
+        width: calc(100% * 12/12);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px)
+/*Type*/
+{
+    h1 {
+        font-size: 70px;
+    }
+    
+    .content {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .content-section {
+        padding: 30px 100px;
+    }
+    
+    #slideshow {
+        margin: 0px 100px 30px;
+    }
+    
+    #slideshow .Australia3~div {
+        height: 200px;
+    }
+    
+    #slideshow .Australia3~div div {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px)
+/*Grid System*/
+{
+    .col-sm-1 {
+        width: calc(100% * 1/12);
+    }
+    
+    .col-sm-2 {
+        width: calc(100% * 2/12);
+    }
+    
+    .col-sm-3 {
+        width: calc(100% * 3/12);
+    }
+    
+    .col-sm-4 {
+        width: calc(100% * 4/12);
+    }
+    
+    .col-sm-5 {
+        width: calc(100% * 5/12);
+    }
+    
+    .col-sm-6 {
+        width: calc(100% * 6/12);
+    }
+    
+    .col-sm-7 {
+        width: calc(100% * 7/12);
+    }
+    
+    .col-sm-8 {
+        width: calc(100% * 8/12);
+    }
+    
+    .col-sm-9 {
+        width: calc(100% * 9/12);
+    }
+    
+    .col-sm-10 {
+        width: calc(100% * 10/12);
+    }
+    
+    .col-sm-11 {
+        width: calc(100% * 11/12);
+    }
+    
+    .col-sm-12 {
+        width: calc(100% * 12/12);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px)
+/*Type*/
+{
+    h1 {
+        font-size: 70px;
+    }
+    
+    .content {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .opacity h2 {
+        width: 190px;
+        margin: 50% auto 15px;
+    }
+    
+    .content-section {
+        padding: 30px 100px;
+    }
+    
+    #slideshow {
+        margin: 0px 100px 30px;
+    }
+    
+    #slideshow .Australia3~div {
+        height: 230px;
+    }
+    
+    #slideshow .Australia3~div div {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+}

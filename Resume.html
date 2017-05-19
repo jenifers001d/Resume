@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume of Us!</title>
+    <!-- 載入 Bootstrap的CSS -->
+    <link rel="stylesheet" href="assets/bootstrap-3.3.1-dist/dist/css/bootstrap.min.css">
+    <!-- 載入 OwlCarousel的CSS -->
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+    <!-- 載入 animation的CSS -->
+    <link rel="stylesheet" href="assets/CSS/animation.css">
+    <!-- 載入 自己編輯的CSS樣式表，放在Bootstrap後面thumbnail才不會一直有邊框 -->
+    <link rel="stylesheet" href="assets/CSS/main.css">
+    <!-- 使用 RWD 功能 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 載入 Google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="subject" class="slideExpandUp">Please hire us !</h1>
+        <div id="jenifer" class="col-md-6 col-sm-6">
+            <div class="content tossing">
+                <img src="assets/Image/2510805940.jpg" alt="None">
+                <div class="opacity">
+                    <h2>Jenifer</h2>
+                    <p>Live a Happy Life~</p>
+                    <p>Work hard, Play hard and Study hard!</p>
+                </div>
+            </div>
+        </div>
+        <div id="jeffrey" class="col-md-6 col-sm-6">
+            <div class="content tossing">
+                <img src="assets/Image/2510805643.jpg" alt="None">
+                <div class="opacity">
+                    <h2>Jeffrey</h2>
+                    <p>Do My Best And Leave The Rest.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="stuckMenu">
+        <div class="nav-bar-content">
+            <ul><a href="#AboutUs">About Us</a></ul>
+            <ul><a href="#Photos">Photos</a></ul>
+            <ul><a href="#Goals">Goals</a></ul>
+        </div>
+    </nav>
+    <div id="AboutUs">
+        <div class="content-section">
+            <h3>About Us</h3>
+            <p style="font-size:20px">Hello~ We are Taiwanese couple in our 26, loving to learn somthing new and go to trip around the world.<br><br> Both of us graduated from National Taiwan University with a master's degree.<br><br> Jenifer majored in engineering science, especially electronical engineering, computer science and cell experiments of biomedical engineering.<br><br> Jeffrey majored in biochemical science and technology, especially effect of folate status on the Multiple sclerosis/disease.<br><br> We don't want just to stay at lab or in the office for whole life, so we came this beautiful country, currently based in Sunnybank hills, Queensland.<br><br> </p>
+        </div>
+    </div>
+    <div id="Photos">
+        <div class="content-section">
+            <h3>Photos</h3>
+            <p style="font-size:20px">There are a few photos of famous or beautiful sights we have ever been to. Here show you~</p>
+        </div>
+
+        <!--
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/Image/IMAG0774.jpg" alt=""></div>
+            <div class="item"><img src="assets/Image/IMAG0756.jpg" alt=""></div>
+            <div class="item"><img src="assets/Image/IMAG0797.jpg" alt=""></div>
+        </div>
+-->
+
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner owl-carousel owl-theme" role="listbox">
+                <div class="item active">
+                    <div class="img-location Taiwan1">Anping Tree House, Tainan, Taiwan</div><a href="http://synapticism.com/anping-tree-house/">http://synapticism.com/anping-tree-house/</a><img src="assets/Image/Anping%20Tree%20House.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Taiwan2">Taroko National Park, Hualien, Taiwan</div><a href="http://www.taroko.gov.tw/">http://www.taroko.gov.tw/</a><img src="assets/Image/Taroko%20National%20Park.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Taiwan3">Vase Crag, Liuqiu, Taiwan</div><a href="http://liuqiu.pthg.gov.tw/">http://liuqiu.pthg.gov.tw/</a><img src="assets/Image/Vase%20Crag.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Japan1">Ishibe Alley, Kyoto, Japan</div><a href="https://en.japantravel.com/kyoto/ishibe-alley/">https://en.japantravel.com/kyoto/ishibe-alley/</a><img src="assets/Image/kyoto.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Japan2">Mount Fuji, Kawaguchiko, Japan</div><a href="http://www.japan-guide.com/e/e2172.html">http://www.japan-guide.com/e/e2172.html</a><img src="assets/Image/Mount%20Fuji.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Japan3">Osaka Castle Park, Osaka, Japan</div><a href="http://www.osakacastle.net/english/park/">http://www.osakacastle.net/english/park/</a><img src="assets/Image/Osaka%20Castle%20Park.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Australia1">Brisbane, Queensland, Australia</div><a href="http://www.visitbrisbane.com.au/">http://www.visitbrisbane.com.au/</a><img src="assets/Image/Brisbane.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Australia2">Girrawween National Park, Australia</div><a href="https://www.npsr.qld.gov.au/parks/girraween/">https://www.npsr.qld.gov.au/parks/girraween/</a><img src="assets/Image/Girraween%20National%20Park.jpg" alt=""></div>
+                <div class="item">
+                    <div class="img-location Australia3">To Be Continued...</div>
+                    <a href=""></a>
+                    <div>
+                        <div>It's for Moreton Island!</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <!--
+                <div class="control-btn">
+                    <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>
+                    </a>
+                    <a href="#slideshow" class="right carousel-control" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span>
+                    </a>
+                </div>
+            -->
+
+            <!--  Indicators -->
+            <!--
+            <ol class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#slideshow" data-slide-to="1"></li>
+                <li data-target="#slideshow" data-slide-to="2"></li>
+            </ol>
+            -->
+        </div>
+
+    </div>
+    <div id="Goals">
+        <div class="content-section">
+            <h3>Goals</h3>
+            <p style="font-size:20px">Our last job is to pick and pack broccolis, brussels sprouts and broccolini for second visa.<br><br> We have heard that Moreton Island is called "The Gem of South East Queensland".<br><br> So, next stop, we want to look for a job with hourly rate on the island, could save money and enjoy the beautiful island at the same time!<br><br> We could start working anytime and it doesn't matter which kind of job.<br><br> Ideally we would love to be placed together but are willing to work separately.<br><br> We would work hard, be positive and full of energy.<br><br> So, if you have any job available, please contact us!</p>
+        </div>
+    </div>
+    <footer>
+        <div class="ContactUs">
+            <h4>CONTACT US</h4>
+            <div class="icon">
+                <i class="material-icons">mail_outline</i>
+            </div>
+            <a href="mailto:jenifers001d@gmail.com">jenifers001d@gmail.com</a><br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:jeffrey200140@gmail.com">jeffrey200140@gmail.com</a></div>
+        <div class="icon">
+            <i class="material-icons">call</i> 0411-241-807 (Jenifer)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0403-019-432 (Jeffrey)
+        </div>
+
+    </footer>
+
+
+    <!-- 載入 jQuery  v1.12.4 -->
+    <script src="https://goo.gl/OmE7hm"></script>
+    <!-- 載入 Bootstrap的JavaScript -->
+    <script src="assets/bootstrap-3.3.1-dist/dist/js/bootstrap.min.js"></script>
+    <!-- 載入 OwlCarousel的JavaScript -->
+    <script src="assets/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+    <script src="assets/OwlCarousel2-2.2.1/dist/owl.carousel.js"></script>
+    <!-- 載入 自己編輯的JavaScript -->
+    <script src="assets/JS/Resume.js"></script>
+
+</body>
+
+</html>
